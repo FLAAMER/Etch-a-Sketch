@@ -1,7 +1,6 @@
 body {
     margin: 0px;
     display: flex;
-    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -15,7 +14,6 @@ div#container {
 }
 
 div#container div {
-    /* flex: 1; */
     margin: 0;
     max-height: 0px;
     max-width: 0px;
