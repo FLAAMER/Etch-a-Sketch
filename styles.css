@@ -4,6 +4,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: black;
+    flex-direction: column;
 }
 
 div#container {
@@ -11,11 +13,12 @@ div#container {
     flex-wrap: wrap;
     width: 32vw;
     height: 32vw;
+    border: 100px;
 }
 
-div#container div {
+div.grid {
     margin: 0;
     max-height: 0px;
     max-width: 0px;
-    padding: 1vw;
+    /* padding: 1vw; */
 }
