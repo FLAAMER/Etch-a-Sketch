@@ -14,6 +14,9 @@ div#container {
     width: 32vw;
     height: 32vw;
     border: 100px;
+    outline-width: 1vw;
+    outline-style: solid;
+    outline-color: red;
 }
 
 div.grid {
@@ -21,4 +24,9 @@ div.grid {
     max-height: 0px;
     max-width: 0px;
     /* padding: 1vw; */
+}
+
+button#resize {
+    background-color: yellow;
+    border-radius: 50px;
 }

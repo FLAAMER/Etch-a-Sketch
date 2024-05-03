@@ -41,7 +41,7 @@ function gridResize() {
     console.log(numberOfSquares)
     for (let i = 0; i < numberOfSquares*numberOfSquares; i++) {
     const container = document.querySelector("div#container")
-    const div = document.querySelector("div.grid")
+    const div = document.querySelector("div#container div")
     container.removeChild(div)
     }
     numberOfSquares = prompt("How many squares per side of the grid (max 100)")
